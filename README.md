@@ -6,10 +6,10 @@ This project aims to create a custom object detection model to recognize signatu
 
 > **Tensorflow:**
 
-  - models - This folder in used to clone Tensorflow's model gerden.
-  - inference-results - This folders holds the ouput of the model's predictions
-  - scripts - This folder holds all the python scripts.
-  - workspace - This folder holds sub folders needed for training custom object detection. Within the workspcae contains the training_demo sub directory.
+  - `models` - This folder in used to clone Tensorflow's model gerden.
+  - `inference-results` - This folders holds the ouput of the model's predictions
+  - `scripts` - This folder holds all the python scripts.
+  - `workspace` - This folder holds sub folders needed for training custom object detection. Within the workspcae contains the training_demo sub directory.
   
     > **training_demo:** Within the training_demo contains the following sub directories.
       
