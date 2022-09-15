@@ -27,3 +27,24 @@ This project aims to create a custom object detection model to recognize signatu
 
       - `pre-trained-models:` This folder will contain the downloaded pre-trained models, which shall be used as a starting checkpoint for our training jobs.
   
+  ### ** 🛠️ Tools and Libraries:**
+  - Tensorflow
+  - Tensorflow's object detection API
+  - Python
+  - Google Colab
+  - Pandas
+  - LabelImg
+  - Numpy
+  
+  To install the above requirements successfully, follow this [Tensorflow's documentation](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)
+
+### **⚙️Training Custom Detection Model:**
+In other to train or retrain the model, run the notebook, `signature_detector.ipynb` in colab (Recommended) or your local machine.
+
+### ** ⚡Inferencing:**
+
+To make predictions on an image or lists of images, execute the following
+- Create a virtual environment
+- Run `pip install -r requirements.txt` to install the dependencies for the model.
+- Navigate into the `scripts` folder and run `python inference.py` setting the following entry points accordingly
+  > 
