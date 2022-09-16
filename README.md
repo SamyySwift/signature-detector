@@ -33,6 +33,7 @@ This project aims to create a custom object detection model to recognize signatu
   - Python
   - Google Colab
   - Pandas
+  - OpenCv
   - LabelImg
   - Numpy
   
