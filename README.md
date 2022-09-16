@@ -2,7 +2,7 @@
 
 ### **🎯Overview:**
 
-This project aims to create a custom object detection model to recognize signatures within the global fund pdf documents for the phase 2 of the PDF Redaction Tool Service. Within the Tensorflow folder contains the following sub-folders.
+This project aims to create a custom object detection model to recognize signatures within the global fund pdf documents for the phase 2 of the PDF Redaction Tool Service.Within the Tensorflow folder contains the following sub-folders.
 
 > **Tensorflow:**
 
@@ -45,11 +45,10 @@ In other to train or retrain the model, run the notebook, `signature_detector.ip
 To make predictions on an image or lists of images, execute the following
 - Create a virtual environment
 - Run `pip install -r requirements.txt` to install the dependencies for the model.
-- Navigate into the `scripts` folder and run `python inference.py` setting the following entry points accordingly.
+- Navigate into the `scripts` folder and run `python inference.py [PATH_TO_IMAGES] [PATH_TO_TRAINED_MODEL] [PATH_TO_LABELMAP] [PATH_TO_SAVE_NEW_IMAGES]` setting the following entry points accordingly.
 
   - **Image_paths:** Path to your images. Paths needs to be in list.
   - **Model_path:** Path to the trained model.
   - **Label_path:** Path to the lable.pbtxt.
-  - **Min_conf_thresh:** Provide the minimum confidence threshold
   - **Output_path:** Path to save output predictions.
   
