@@ -42,14 +42,13 @@ This project aims to create a custom object detection model to recognize signatu
 ### **⚙️Training Custom Detection Model:**
 In other to train or retrain the model, run the notebook, `signature_detector.ipynb` in colab (Recommended) or your local machine.
 
-### **⚡Inferencing:**
-To make predictions on an image or lists of images, execute the following
+### **⚡Inferencing and Redacting:**
+To make detections and redact a pdf file, execute the following
 - Create a virtual environment
 - Run `pip install -r requirements.txt` to install the dependencies for the model.
-- Navigate into the `scripts` folder and run `python inference.py [PATH_TO_IMAGES] [PATH_TO_TRAINED_MODEL] [PATH_TO_LABELMAP] [PATH_TO_SAVE_NEW_IMAGES]` setting the following entry points accordingly.
+- Navigate into the `scripts` folder and run `python redact.py [PATH_TO_PDF] [PATH_TO_TRAINED_MODEL] [PATH_TO_LABELMAP]` setting the following entry points accordingly.
 
-  - **Image_paths:** Path to your images. Paths needs to be in list.
-  - **Model_path:** Path to the trained model.
+  - **Pdf_path:** Path to your pdf
+  - **Model_path:** Path to the saved trained model.
   - **Label_path:** Path to the lable.pbtxt.
-  - **Output_path:** Path to save output predictions.
   
