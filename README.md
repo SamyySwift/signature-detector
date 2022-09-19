@@ -33,6 +33,8 @@ This project aims to create a custom object detection model to recognize signatu
   - Python
   - Google Colab
   - Pandas
+  - [img2pdf](https://pypi.org/project/img2pdf/)
+  - [pdf2image](https://pypi.org/project/pdf2image/)
   - OpenCv
   - LabelImg
   - Numpy
