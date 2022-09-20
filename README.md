@@ -46,6 +46,7 @@ In other to train or retrain the model, run the notebook, `signature_detector.ip
 
 ### **⚡Inferencing and Redacting:**
 To make detections and redact a pdf file, execute the following
+- Download the exported-model folder from within `Tensorflow\workspace\training-demo\exported-model`
 - Create a virtual environment
 - Run `pip install -r requirements.txt` to install the dependencies for the model.
 - Navigate into the `scripts` folder and run `python redact.py [PATH_TO_PDF] [PATH_TO_TRAINED_MODEL] [PATH_TO_LABELMAP]` setting the following entry points accordingly.
