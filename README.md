@@ -49,9 +49,9 @@ To make detections and redact a pdf file, execute the following
 - Download the exported-model folder from within `Tensorflow\workspace\training-demo\exported-model`
 - Create a virtual environment
 - Run `pip install -r requirements.txt` to install the dependencies for the model.
-- Navigate into the `scripts` folder and run `python redact.py [PATH_TO_PDF] [PATH_TO_TRAINED_MODEL] [PATH_TO_LABELMAP]` setting the following entry points accordingly.
+- Run `python -m spacy download en_core_web_sm` to install the NER model.
+- Run `python redact.py [PATH_TO_PDF]` setting the following entry point accordingly.
 
   - **Pdf_path:** Path to your pdf
-  - **Model_path:** Path to the saved trained model.
-  - **Label_path:** Path to the lable.pbtxt.
+
   
