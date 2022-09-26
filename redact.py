@@ -8,6 +8,7 @@ from transformers import (AutoModelForTokenClassification, AutoTokenizer,
 import tensorflow as tf
 from pdf_redaction import PdfRedaction
 
+
 pdf = sys.argv[1]
 
 #Instantiate easyocr
